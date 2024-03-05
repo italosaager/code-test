@@ -14,7 +14,9 @@
 create database db_gerencia
 ```
 
-* Em seguida, a sequence para o auto increment dos ids.
+Dê um refresh no banco.
+
+* Em seguida, acesse o query tool do db_gerencia e crie a sequence para o auto increment dos ids.
 ```SQL
 create sequence id_cliente_seq 
 increment by 1 
